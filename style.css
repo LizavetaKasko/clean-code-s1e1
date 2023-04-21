@@ -36,7 +36,7 @@ body {
   display: flex;
 }
 
-.main-block__todo {
+.main-block__todo-ul {
   margin: 0;
   padding: 0px;
 }
@@ -149,7 +149,7 @@ li > input[type="text"] {
 
 /* Completed */
 
-.main-block__completed label {
+.main-block__completed-ul label {
   text-decoration: line-through;
   color: #888;
 }

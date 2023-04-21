@@ -9,8 +9,8 @@
 
 var taskInput = document.getElementById("new-task"); //Add a new task.
 var addButton = document.getElementsByTagName("button")[0]; //first button
-var incompleteTaskHolder = document.querySelector(".main-block__todo"); //ul of #incompleteTasks
-var completedTasksHolder = document.querySelector(".main-block__completed"); //completed-tasks
+var incompleteTaskHolder = document.querySelector(".main-block__todo-ul"); //ul of #incompleteTasks
+var completedTasksHolder = document.querySelector(".main-block__completed-ul"); //completed-tasks
 
 //New task list item
 var createNewTaskElement = function (taskString) {
